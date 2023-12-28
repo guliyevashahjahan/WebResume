@@ -1,0 +1,146 @@
+﻿
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="M_Adnan" />
+    <link rel="icon" href="~/images/istockphoto-1458217975-1024x1024.jpg"/>
+    <title>WebResume | @ViewBag.Title</title>
+
+    <link rel="stylesheet" href="~/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap/bootstrap.min.css">
+    @* <link rel="stylesheet" href="~/css/font-awesome.min.css"> *@
+    <link rel="stylesheet" href="~/css/main.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <link href="~/admin/assets/css/additional.css" rel="stylesheet" />
+@* 
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    
+    <script src="~/js/vendors/modernizr.js"></script> *@
+    <script src="https://kit.fontawesome.com/85493f3ea1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div id="wrap"> 
+  
+  <nav id="cd-lateral-nav">
+    <h5 class="tittle">MotiCv</h5>
+    <ul class="cd-navigation">
+      <li><a href="index.html">Index Main</a></li>
+      <li><a href="index-1.html">Index 2</a></li>
+      <li><a href="index-2.html">Index 3</a></li>
+      <li><a href="index-3-pages.html">Index Links</a></li>
+      <li><a href="about-me.html">About Me</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li class="item-has-children"> <a href="index.html">Pages</a>
+        <ul class="sub-menu">
+          <li><a href="blog-single.html">Blog Details</a></li>
+          <li><a href="resume(edit-mode).html">Resume (edit mode)</a></li>
+          <li><a href="resume(edit-professional-experience).html">Resume (edit professional experience)</a></li>
+        </ul>
+      </li>
+    </ul>
+    <h5 class="tittle">Latest Post</h5>
+    @* <ul class="latest-post">
+      
+      <li>
+        <div class="media">
+          <div class="media-left"> <a href="#."><img src="images/small-img.jpg" alt=""></a></div>
+          <div class="media-body"> <a href="#.">Hello Itaewon 
+            Project</a>
+            <p class="font-crimson font-italic">Webdesign</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="media">
+          <div class="media-left"> <a href="#."><img src="images/small-img-1.jpg" alt=""></a></div>
+          <div class="media-body"> <a href="#.">Casual in grey</a>
+            <p class="font-crimson font-italic">Webdesign</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="media">
+          <div class="media-left"> <a href="#."><img src="images/small-img-2.jpg" alt=""></a></div>
+          <div class="media-body"> <a href="#.">Transittions</a>
+            <p class="font-crimson font-italic">Webdesign</p>
+          </div>
+        </div>
+      </li>
+    </ul> *@
+  </nav>
+  
+  
+  <main class="cd-main-content">
+    <div id="content" class="bg">
+      <div class="resume">
+        <div class="container"> 
+          
+          <div class="top-head">
+            <div class="row">
+              <div class="col-sm-6">
+                <h4>Resume </h4>
+                <a href="resume(edit-mode).html">Edit Resume</a> </div>
+            </div>
+          </div>
+          
+          <div class="row"> 
+          
+              <partial name="_Sidebar"/>
+
+            <div class="col-md-8"> 
+              
+              <nav> 
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-tabis" aria-expanded="false"> <span class="tittle">MENU</span> <span class="fa fa-navicon icon-nav"></span> </button>
+                <div class="collapse navbar-collapse" id="nav-tabis">
+                  <ul class="isop-filter nav nav-pills" id="menu">
+                    <li role="presentation"><a asp-controller="home" asp-action="index" ><i class="fa-regular fa-user"></i> ABOUT ME</a></li>
+                    <li role="presentation"><a asp-controller="home" asp-action="resume" ><i class="fa-solid fa-book-open"></i>RESUME</a></li>
+                    <li role="presentation"><a asp-controller="portfolio" asp-action="index"><i class="fa-solid fa-rocket"></i>PORTFOLIO</a></li>
+                    <li role="presentation"><a asp-controller="blogs" asp-action="index"><i class="fa-regular fa-pen-to-square"></i>BLOG</a></li>
+                    <li role="presentation"><a asp-controller="home" asp-action="contact"> <i class="fa-solid fa-pencil"></i>CONTACT ME</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+             <div> 
+
+                @RenderBody()
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="rights">
+      <p>© Copyright 2023 JAHAN. All right reserved.</p>
+    </div>
+  </footer>
+
+  
+</div>
+
+<script src="~/js/vendors/jquery/jquery.min.js"></script>
+<script src="~/js/vendors/bootstrap.min.js"></script>
+<script src="~/js/vendors/owl.carousel.min.js"></script>
+<script src="~/js/vendors/jquery.isotope.min.js"></script>
+<script src="~/js/main.js"></script>
+@* <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="~/js/vendors/map.js"></script> *@
+<script src="~/js/additional.js"></script>
+
+</body>
+
+</html>

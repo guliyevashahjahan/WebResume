@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\bin\Debug\net6.0\Resume.Data.deps.json
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\bin\Debug\net6.0\Resume.Data.runtimeconfig.json
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\bin\Debug\net6.0\Resume.Data.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\bin\Debug\net6.0\Resume.Data.pdb
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\bin\Debug\net6.0\Resume.Infrastructure.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\bin\Debug\net6.0\Resume.Infrastructure.pdb
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.csproj.CopyComplete
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\refint\Resume.Data.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.pdb
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\Resume.Data.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Data\obj\Debug\net6.0\ref\Resume.Data.dll

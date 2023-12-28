@@ -1,0 +1,77 @@
+﻿<nav class="pcoded-navbar">
+    <div class="pcoded-inner-navbar main-menu">
+        <div class="pcoded-navigatio-lavel">Main</div>
+        <ul class="pcoded-item pcoded-left-item">
+
+            @* @if (User.HasClaim("admin.dashboard.index")) *@
+            {
+                <li>
+                    <a asp-controller="Dashboard" asp-action="Index">
+                        <span class="pcoded-micon"><i class="feather icon-home"></i></span>
+                        <span class="pcoded-mtext">Dashboard</span>
+                    </a>
+                </li>
+            }
+
+            @* @if (User.HasClaim("admin.faqs.index")) *@
+            {
+                <li>
+                    <a asp-controller="Faqs" asp-action="Index">
+                        <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
+                        <span class="pcoded-mtext">Faqs</span>
+                    </a>
+                </li>
+            }
+
+            <li class="pcoded-hasmenu">
+                <a href="javascript:void(0)">
+                    <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
+                    <span class="pcoded-mtext">Lists</span>
+                </a>
+                <ul class="pcoded-submenu">
+                    @* @if (User.HasClaim("admin.brands.index")) *@
+                    {
+
+                        <li>
+                            <a asp-controller="Brands" asp-action="Index">
+                                <span class="pcoded-mtext">Brands</span>
+                            </a>
+                        </li>
+                    }
+                    @* @if (User.HasClaim("admin.sizes.index")) *@
+                    {
+                        <li>
+                            <a asp-controller="Sizes" asp-action="Index">
+                                <span class="pcoded-mtext">Sizes</span>
+                            </a>
+                        </li>
+                    }
+                    @* @if (User.HasClaim("admin.materials.index")) *@
+                    {
+                        <li>
+                            <a asp-controller="Materials" asp-action="Index">
+                                <span class="pcoded-mtext">Materials</span>
+                            </a>
+                        </li>
+                    }
+
+
+                </ul>
+            </li>
+        </ul>
+        <div class="pcoded-navigatio-lavel">Settings</div>
+    </div>
+</nav>
+
+<script>
+    window.addEventListener('load', function () {
+
+        let element = document.querySelector(`.pcoded-navbar a[href='${window.location.pathname}']`);
+
+        if (element != null) {
+            element.parentElement.classList.add('active');
+            element.parentElement.closest('li.pcoded-hasmenu').classList.add('active', 'pcoded-trigger');
+        }
+
+    });
+</script>

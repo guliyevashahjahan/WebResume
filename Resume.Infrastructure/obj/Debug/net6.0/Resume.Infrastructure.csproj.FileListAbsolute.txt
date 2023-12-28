@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\bin\Debug\net6.0\Resume.Infrastructure.deps.json
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\bin\Debug\net6.0\Resume.Infrastructure.runtimeconfig.json
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\bin\Debug\net6.0\Resume.Infrastructure.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\bin\Debug\net6.0\Resume.Infrastructure.pdb
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\Resume.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\Resume.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\Resume.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\Resume.Infrastructure.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\Resume.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\Resume.Infrastructure.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\refint\Resume.Infrastructure.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\Resume.Infrastructure.pdb
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\Resume.Infrastructure.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\my solutions\WebResume\Resume.Infrastructure\obj\Debug\net6.0\ref\Resume.Infrastructure.dll
