@@ -262,3 +262,7 @@ C:\Users\ASUS\Desktop\my solutions\WebResume\WebResumeApp\obj\Debug\net6.0\refin
 C:\Users\ASUS\Desktop\my solutions\WebResume\WebResumeApp\obj\Debug\net6.0\WebResumeApp.pdb
 C:\Users\ASUS\Desktop\my solutions\WebResume\WebResumeApp\obj\Debug\net6.0\WebResumeApp.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\my solutions\WebResume\WebResumeApp\obj\Debug\net6.0\ref\WebResumeApp.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\WebResumeApp\bin\Debug\net6.0\AngleSharp.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\WebResumeApp\bin\Debug\net6.0\AngleSharp.Css.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\WebResumeApp\bin\Debug\net6.0\HtmlSanitizer.dll
+C:\Users\ASUS\Desktop\my solutions\WebResume\WebResumeApp\bin\Debug\net6.0\System.Collections.Immutable.dll

@@ -7065,6 +7065,22 @@
       "PackagePath": "staticwebassets\\libraries\\zoom-image-viewer\\zoom-image-viewer.js"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\126611e6-cc8b-4e55-9165-5b7af871761c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\126611e6-cc8b-4e55-9165-5b7af871761c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\58e77eef-a759-4b17-a8fa-f3f5e63b0ecc.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\58e77eef-a759-4b17-a8fa-f3f5e63b0ecc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\7811241a-4a02-4659-ac48-1a947597d9fc.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\7811241a-4a02-4659-ac48-1a947597d9fc.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\7963d9f1-9b70-4ccd-93b1-a596009edb9a.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\7963d9f1-9b70-4ccd-93b1-a596009edb9a.webp"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebResumeApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

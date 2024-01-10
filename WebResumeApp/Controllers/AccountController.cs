@@ -43,7 +43,12 @@ namespace WebResumeApp.Controllers
                     IsPersistent = true,
                     ExpiresUtc = DateTime.UtcNow.AddMinutes(10)
                 });
-            
+
+            var callback = Request.Query["ReturnUrl"];
+            if (!string.IsNullOrWhiteSpace(callback))
+            {
+                return RedirectToAction(callback);
+            }
             return RedirectToAction("index", "dashboard", new { area = "admin"});
         }
 

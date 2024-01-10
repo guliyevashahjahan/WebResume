@@ -33,7 +33,7 @@ namespace Resume.Data
                .AddDefaultTokenProviders();
 
             services.AddScoped<UserManager<ResumeUser>>();
-          //  services.AddScoped<IUserManager, AppUserManager>();
+            //services.AddScoped<IUserManager, AppUserManager>();
             services.AddScoped<RoleManager<ResumeRole>>();
             services.AddScoped<SignInManager<ResumeUser>>();
 
