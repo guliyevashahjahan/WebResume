@@ -158,14 +158,7 @@
 @section addjs{
     <script src="~/libraries/ckeditor5/ckeditor.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $("#category").select2();
-            $("#tag-tokenizer").select2({
-                tags: true,
-                tokenSeparators: [',', ' ']
-            })
-            
-        })
+     
         ClassicEditor
             .create(document.querySelector('#editor'))
             .catch(function (e) { console.log('ckeditor'), e });

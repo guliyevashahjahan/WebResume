@@ -19,10 +19,6 @@ namespace Resume.Data.Persistences.Configurations
             builder.Property(x => x.Title).HasColumnType("nvarchar").HasMaxLength(200).IsRequired();
             builder.Property(x => x.Body).HasColumnType("nvarchar(max)").IsRequired();
             builder.Property(x => x.ImagePath).HasColumnType("nvarchar").HasMaxLength(50).IsRequired();
-            builder.Property(x => x.Slug).HasColumnType("nvarchar").HasMaxLength(200).IsRequired();
-            builder.Property(x => x.PublishedAt).HasColumnType("datetime");
-            builder.Property(x => x.PublishedBy).HasColumnType("int");
-
 
 
             builder.ConfigureAsAuditable();
@@ -34,7 +30,6 @@ namespace Resume.Data.Persistences.Configurations
                 .HasForeignKey(x => x.UserId)
                 .HasPrincipalKey(x => x.Id)
                 .OnDelete(DeleteBehavior.NoAction);
-            builder.HasIndex(x => x.Slug).IsUnique();
 
             builder.ToTable("BlogPosts");
         }

@@ -7065,12 +7065,44 @@
       "PackagePath": "staticwebassets\\libraries\\zoom-image-viewer\\zoom-image-viewer.js"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\1198f23d-4286-42e1-8250-21906b7c6f04.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\1198f23d-4286-42e1-8250-21906b7c6f04.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\126611e6-cc8b-4e55-9165-5b7af871761c.jpg",
       "PackagePath": "staticwebassets\\uploads\\images\\126611e6-cc8b-4e55-9165-5b7af871761c.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\3a01278c-1a1b-493d-bbfd-bc6e3e1be105.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\3a01278c-1a1b-493d-bbfd-bc6e3e1be105.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\3bcd5f23-efea-47e5-819b-8b4a8e50cb48.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\3bcd5f23-efea-47e5-819b-8b4a8e50cb48.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\415bc861-2b8b-47ea-9f4d-a14403643854.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\415bc861-2b8b-47ea-9f4d-a14403643854.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\4d12b803-a8d1-4346-8083-ebb74f35ab57.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\4d12b803-a8d1-4346-8083-ebb74f35ab57.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\4f805987-8436-450b-bd64-6d3a79118af3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\4f805987-8436-450b-bd64-6d3a79118af3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\52b065dd-598c-4b9c-a398-b4e4e5d52261.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\52b065dd-598c-4b9c-a398-b4e4e5d52261.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\58e77eef-a759-4b17-a8fa-f3f5e63b0ecc.jpg",
       "PackagePath": "staticwebassets\\uploads\\images\\58e77eef-a759-4b17-a8fa-f3f5e63b0ecc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\6be426e4-47dd-4d76-9b72-27b0cc019e6c.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\6be426e4-47dd-4d76-9b72-27b0cc019e6c.webp"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\7811241a-4a02-4659-ac48-1a947597d9fc.webp",
@@ -7079,6 +7111,14 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\7963d9f1-9b70-4ccd-93b1-a596009edb9a.webp",
       "PackagePath": "staticwebassets\\uploads\\images\\7963d9f1-9b70-4ccd-93b1-a596009edb9a.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\adb8cca8-fac6-4117-b63e-9810d2c772f4.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\adb8cca8-fac6-4117-b63e-9810d2c772f4.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\my solutions\\WebResume\\WebResumeApp\\wwwroot\\uploads\\images\\ece75b8f-102c-47e3-a86d-ebc44cdf9cf9.webp",
+      "PackagePath": "staticwebassets\\uploads\\images\\ece75b8f-102c-47e3-a86d-ebc44cdf9cf9.webp"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebResumeApp.Microsoft.AspNetCore.StaticWebAssets.props",

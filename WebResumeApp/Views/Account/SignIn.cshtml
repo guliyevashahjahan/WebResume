@@ -14,7 +14,7 @@
                 </div>
 
                 <div id="CustomerLoginForm" class="login">
-                    <form method="post" id="customer_login">
+                    <form method="post" id="customer_login" asp-route-returnUrl="@Context.Request.Host@Context.Request.Path">
                         <div class="login-form-container">
                             <div class="login-text login-title mb-30">
                                 <h2>Login</h2>
@@ -38,7 +38,6 @@
                                 </div>
                             </div>
                         </div>
-                        <input type="hidden" name="return_url" value="/account" />
                     </form>
                 </div>
 

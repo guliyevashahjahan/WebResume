@@ -19,18 +19,21 @@ namespace Resume.Business.Modules.AccountModule.Commands.RegisterCommand
         private readonly IEmailService emailService;
         private readonly IActionContextAccessor ctx;
         private readonly ICryptoService cryptoService;
+        private readonly IFileService fileService;
 
         public RegisterRequestHandler(UserManager<ResumeUser> userManager,
             RoleManager<ResumeRole> roleManager,
             IEmailService emailService,
             IActionContextAccessor ctx,
-            ICryptoService cryptoService)
+            ICryptoService cryptoService,
+            IFileService fileService)
         {
             this.userManager = userManager;
             this.roleManager = roleManager;
             this.emailService = emailService;
             this.ctx = ctx;
             this.cryptoService = cryptoService;
+            this.fileService = fileService;
         }
         public async Task Handle(RegisterRequest request, CancellationToken cancellationToken)
         {
@@ -47,8 +50,16 @@ namespace Resume.Business.Modules.AccountModule.Commands.RegisterCommand
                 Name = request.Name,
                 Surname = request.Surname,
                 Email = request.Email,
+                Age = request.Age,
+                Location = request.Location,
+                ShortLocation = request.Location,
+                EducationDegree = request.EducationDegree,
+                CareerLevel = request.CareerLevel,
+                Phone = request.Phone,
+                About = request.About,
                 EmailConfirmed = false
             };
+            user.ImagePath = fileService.Upload(request.File);
 
             int? tryCount = null;
 

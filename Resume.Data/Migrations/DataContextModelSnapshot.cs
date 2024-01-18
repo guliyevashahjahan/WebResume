@@ -58,17 +58,6 @@ namespace Resume.Data.Migrations
                     b.Property<int?>("LastModifiedBy")
                         .HasColumnType("int");
 
-                    b.Property<DateTime?>("PublishedAt")
-                        .HasColumnType("datetime");
-
-                    b.Property<int?>("PublishedBy")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Slug")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -78,9 +67,6 @@ namespace Resume.Data.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("Slug")
-                        .IsUnique();
 
                     b.HasIndex("UserId");
 

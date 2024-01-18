@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,12 @@ namespace Resume.Business.Modules.AccountModule.Commands.RegisterCommand
         public string Email { get; set; }
         public string Password { get; set; }
         public string PasswordConfirm { get; set; }
+        public byte Age { get; set; }
+        public string Location { get; set; }
+        public string EducationDegree { get; set; }
+        public string CareerLevel { get; set; }
+        public string Phone { get; set; }
+        public string About { get; set; }
+        public IFormFile File { get; set; }
     }
 }
